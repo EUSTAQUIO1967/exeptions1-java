@@ -1,0 +1,68 @@
+### Exclusões de Compilação Geral (Java/Kotlin/Scala) ###
+#######################################################
+# Pasta de saída da compilação e classes
+/bin/
+/build/
+/out/
+/target/
+
+# Arquivos .jar, .war, .ear etc. criados
+*.jar
+*.war
+*.ear
+*.class
+
+# Logs
+*.log
+log.txt
+/logs/
+
+# Arquivos de metadados de pacotes
+*.lock
+/release/
+
+### Exclusões de IDEs ###
+##########################
+
+# IntelliJ IDEA / Android Studio
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+.metadata
+.classpath
+.project
+# Pastas de configurações específicas (por exemplo, dentro de .settings)
+.settings/
+
+# VS Code
+.vscode/
+
+### Exclusões de Ferramentas de Build (Maven/Gradle) ###
+########################################################
+
+# Maven
+# Arquivos de cache do Maven (opcional, mas recomendado)
+.m2/repository/
+
+# Gradle
+.gradle/
+# Arquivos de cache do Gradle
+/build/
+/out/
+# Wrapper do Gradle (se não quiser versioná-lo)
+# Descomente a linha abaixo para ignorar o wrapper
+# /gradle/wrapper/
+
+# Arquivos de propriedades específicos
+/local.properties
+
+### Exclusões do Sistema Operacional ###
+########################################
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
